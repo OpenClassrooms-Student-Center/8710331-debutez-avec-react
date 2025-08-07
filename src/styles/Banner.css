@@ -1,0 +1,20 @@
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px;
+    border-bottom: 3px solid #31b572;
+    background-color: #f8f9fa;
+}
+
+.banner-title {
+    color: #31b572;
+    font-size: 2rem;
+    margin: 0;
+    font-family: 'Georgia', serif;
+}
+
+.banner-logo {
+    height: 60px;
+    width: auto;
+}
