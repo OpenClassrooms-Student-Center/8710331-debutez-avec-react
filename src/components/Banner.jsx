@@ -1,5 +1,5 @@
 import '../styles/Banner.css'
-import logo from '../images/logo.png'
+import logo from '../assets/logo.png'
 
 const Banner = () => {
   const title = 'La maison jungle'
