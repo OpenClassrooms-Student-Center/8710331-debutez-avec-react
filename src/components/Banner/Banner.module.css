@@ -7,14 +7,14 @@
     background-color: #f8f9fa;
 }
 
-.banner-title {
+.bannerTitle {
     color: #31b572;
     font-size: 2rem;
     margin: 0;
     font-family: 'Georgia', serif;
 }
 
-.banner-logo {
+.bannerLogo {
     height: 60px;
     width: auto;
 }
