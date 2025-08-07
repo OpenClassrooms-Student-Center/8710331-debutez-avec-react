@@ -1,6 +1,6 @@
 import Banner from './components/Banner'
 import Cart from './components/Cart'
-import Footer from './componentsq/Footer'
+import Footer from './components/Footer'
 import ShoppingList from './components/ShoppingList'
 
 import logo from './assets/logo.png'
