@@ -1,3 +1,5 @@
+import { useState } from 'react'
+
 import Banner from './components/Banner'
 import Cart from './components/Cart'
 import Footer from './components/Footer'
@@ -7,6 +9,7 @@ import './styles/Layout.css'
 
 
 const App = () => {
+    const [cart, updateCart] = useState([])
     return (
         <div>
             <Banner>
@@ -14,8 +17,8 @@ const App = () => {
                 <h1 className='lmj-title'>La maison jungle</h1>
             </Banner>
             <div className='lmj-layout-inner'>
-                <Cart />
-                <ShoppingList />
+                <Cart cart={cart} updateCart={updateCart} />
+                <ShoppingList cart={cart} updateCart={updateCart} />
             </div>
             <Footer />
         </div>
