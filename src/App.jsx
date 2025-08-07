@@ -1,7 +1,10 @@
 import Banner from './components/Banner'
 import Cart from './components/Cart'
-import logo from './assets/logo.png'
+import Footer from './componentsq/Footer'
 import ShoppingList from './components/ShoppingList'
+
+import logo from './assets/logo.png'
+
 
 const App = () => {
     return (
@@ -12,6 +15,7 @@ const App = () => {
             </Banner>
             {/* <Cart /> */}
             <ShoppingList />
+            <Footer />
         </div>
     )
 }
