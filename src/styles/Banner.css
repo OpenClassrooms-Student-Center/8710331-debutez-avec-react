@@ -1,20 +1,19 @@
-.banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 32px;
-    border-bottom: 3px solid #31b572;
-    background-color: #f8f9fa;
+.lmj-banner {
+	color: black;
+	text-align: right;
+	padding: 32px;
+	border-bottom: solid 3px black;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	align-items: center;
 }
 
-.banner-title {
-    color: #31b572;
-    font-size: 2rem;
-    margin: 0;
-    font-family: 'Georgia', serif;
+.lmj-title {
+	padding-left: 32px;
 }
 
-.banner-logo {
-    height: 60px;
-    width: auto;
+.lmj-logo {
+	height: 45px;
+	width: 45px;
 }
