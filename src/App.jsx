@@ -1,4 +1,4 @@
-import Banner from './components/Banner'
+import Banner from './components/Banner/Banner.jsx'
 import Cart from './components/Cart'
 
 const App = () => {
