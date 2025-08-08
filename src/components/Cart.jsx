@@ -4,9 +4,8 @@ import '../styles/Cart.css'
 
 const Cart = ({cart, updateCart}) => {
     const [isOpen, setIsOpen] = useState(true)
-    const items = Object.keys(cart)
-    const total = items.reduce(
-        (acc, item) => acc + cart[item].amount * cart[item].price,
+    const total = cart.reduce(
+        (acc, item) => acc + item.amount * item.price,
         0
     )
     useEffect(() => {
